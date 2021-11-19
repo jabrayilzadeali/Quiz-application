@@ -1,0 +1,32 @@
+*:after {
+	content: none;
+}
+
+.button {
+	font-size: 25px;
+	padding: 12px;
+}
+
+.center {
+	margin: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+input[type='text'] {
+	border: 1px solid black;
+	font-size: 25px;
+}
+input[type="submit"] {
+	display: block;
+}
+
+label {
+	font-size: 30px;
+}
+
+h1 {
+	font-size: 40px;
+}

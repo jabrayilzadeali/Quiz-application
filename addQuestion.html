@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style/style.css">
+	<title>Quiz Applicaton</title>
+</head>
+<body>
+	<div class="center">
+		<h1>Add your questions and then Quiz</h1>
+		<h1>Or <a href="demo.html">Demo</a></h1>
+		<form>
+			<label for="question">Your Question: </label>
+			<input type="text" id="question">
+      <br>
+			<label for="variantA">variant A</label>
+			<input type="text" id="variantA">
+      <br>
+			<label for="variantB">variant B</label>
+			<input type="text" id="variantB">
+      <br>
+      <p>Choose the correct variant</p>
+			<input type="radio" value="Variant A" id="A" name="variant">
+      <label for="A">Variant A</label>
+      <br>
+			<input type="radio" value="Variant B" id="B" name="variant">
+      <label for="B">Variant B</label>
+			<input type="submit" class="button" value="Add Question">
+      <button class="button">Start Quiz</button>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
